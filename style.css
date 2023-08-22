@@ -1,0 +1,24 @@
+
+.arriba{
+    display: flex;
+}
+.barra{
+    background-color: rgb(115, 240, 115);
+      
+}
+.logo{
+    width: 200px;
+
+}
+.titulo{
+    color: green
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    
+    
+}
