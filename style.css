@@ -20,7 +20,7 @@ body{
     margin-right: 20px;
 }
 .titulo{
-    color: green;
+    color: white;
     flex-grow: 1;
     font-size: 270%;
     
@@ -75,6 +75,7 @@ footer{
     }
 
     .titulo {
+        color: white;
         text-align: center;
         font-size: 250%;
     }
