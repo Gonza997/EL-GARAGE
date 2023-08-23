@@ -22,8 +22,8 @@ body{
 .titulo{
     color: green;
     flex-grow: 1;
-    font-size: 24px;
-    width: 370%;
+    font-size: 270%;
+    
 }
 .nav{     
     width: 100%;    
@@ -76,7 +76,7 @@ footer{
 
     .titulo {
         text-align: center;
-        width: 170%;
+        font-size: 250%;
     }
 
     .barra {
@@ -86,5 +86,6 @@ footer{
 
     .links {
         width: 100%;
+        text-align: center;
     }
 }
