@@ -63,6 +63,10 @@ footer{
     .arriba {
         flex-direction: row;
         align-items: flex-start;
+        background-image: url('/img/IMG-20230823-WA0002.jpg');
+        background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+        background-repeat: no-repeat; /* Evita que se repita la imagen */
+        background-position: center; /* Coloca la imagen en el centro del contenedor */
     }
 
     .logo {
