@@ -6,35 +6,38 @@ body{
 }
 .arriba{
     display: flex;
+    align-items: center;
+    padding: 20px;
 }
 .logo{
-    width: 200px;
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
 }
 .titulo{
     color: green;
-    width: 80%;
-    align-items: center;
+    flex-grow: 1;
+    font-size: 24px;
 }
 .nav{     
     width: 100%;    
-    background-color: rgb(115, 240, 115); 
 }
 .barra{
     background-color: rgb(115, 240, 115); 
     display: flex;
     justify-content: center;   
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
     padding: 10px;
      
 }
 .linka{
     text-decoration: none;
     color: black;
+    padding: 10px;
     
 }
 .links{
     list-style: none;
-    color: red;
     text-decoration: none;
     margin: 20px;
     width: calc(25%);
@@ -50,7 +53,7 @@ footer{
     color: white;
     margin: 0px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .arriba {
         flex-direction: column;
         align-items: flex-start;
