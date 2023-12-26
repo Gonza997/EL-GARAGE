@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.arriba{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: url('img/IMG-20230823-WA0002.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    background-position: center; /* Coloca la imagen en el centro del contenedor */
+              
+}
+.logo{    
+    width: 30%;
+    height: auto;
+    margin-right: 50%;
+    
+}
+
+.nav{     
+    width: 100%;    
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    height: 10vh;
+    padding: 20px;
+    color: white;
+    margin: 0px;
+}
+@media (max-width: 768px) {
+    .arriba {
+        flex-direction: row;
+        align-items: flex-start;
+        background-image: url('img/IMG-20230823-WA0002.jpg');
+        background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+        background-repeat: no-repeat; /* Evita que se repita la imagen */
+        background-position: center; /* Coloca la imagen en el centro del contenedor */
+    }
+
+    .logo {
+        margin: 0 0 10px 0;
+        width: 30%
+    }
+
+    
+}
